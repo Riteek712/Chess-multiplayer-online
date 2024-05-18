@@ -1,8 +1,8 @@
 import { WebSocket } from "ws";
 
 export class Game {
-    private player1: WebSocket
-    private player2: WebSocket
+    public player1: WebSocket
+    public player2: WebSocket
     private board: string
     private moves: string[]
     private startTime: Date
